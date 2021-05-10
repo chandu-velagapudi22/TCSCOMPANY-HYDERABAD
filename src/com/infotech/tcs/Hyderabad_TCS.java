@@ -13,10 +13,17 @@ public class Hyderabad_TCS {
 		System.out.println("****************");
 	}
 
+	public void java_Dept() {
+		System.out.println("@@@@@@@@@@@@@@@@@@");
+		System.out.println("I AM DOING CLONED THEN CODE IS ADDED");
+		System.out.println("This is java depertament");
+	}
+
 	public static void main(String[] args) {
 
 		Hyderabad_TCS tcs = new Hyderabad_TCS();
 		tcs.ui_Dept();
 		hr_Dept();
+		tcs.java_Dept();
 	}
 }
